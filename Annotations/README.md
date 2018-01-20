@@ -12,16 +12,16 @@
   1. 能够读懂别人使用注解实现的开源库
   2. 让编程变得更加简洁
 * 注解的分类
-  1. 标准注解:
+  * 标准注解:
     1. @Override:重写函数
     2. @Deprecated:不鼓励使用(有更好方式、使用有风险或已不在维护)
     3. @SuppressWarnings:忽略某项Warning
-  2. 元注解
-    1. @Retention
+  * 元注解
+    * @Retention
       1. SOURCE：Annotation信息仅存在于编译器处理期间，编译器处理完之后就没有该Annotation信息了（源文件保留）
       2. CLASS：编译器将Annotation存储于类对应的.class文件中。默认行为（class保留）
       3. RUNTIME：编译器将Annotation存储于class文件中，并且可由JVM读入（运行时保留）
-    2. @Target
+    * @Target
       1. TYPE：类、接口（包括注释类型）或枚举声明
       2. FIELD：字段声明（包括枚举常量）
       3. METHOD：方法声明
@@ -30,9 +30,9 @@
       6. LOCAL_VARIABLE：局部变量声明
       7. ANNOTATION_TYPE：注释类型声明
       8. PACKAGE：包声明
-    3. @Inherited
-    4. @Documented
-  3. 自定义注解
+    * @Inherited
+    * @Documented
+  * 自定义注解
     1. 源码时
     2. 编译时
     3. 运行时
