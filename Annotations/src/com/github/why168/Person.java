@@ -1,4 +1,4 @@
-package com.edwin;
+package com.github.why168;
 
 @Description("I am interface")
 public interface Person {

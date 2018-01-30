@@ -1,4 +1,4 @@
-package com.edwin;
+package com.github.why168;
 
 @Description("I am class annotation")
 public class Child implements Person {

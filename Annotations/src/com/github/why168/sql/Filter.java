@@ -1,4 +1,4 @@
-package com.edwin.sql;
+package com.github.why168.sql;
 
 
 @Table("user")
