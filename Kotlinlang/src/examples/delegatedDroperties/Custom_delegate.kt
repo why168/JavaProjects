@@ -16,7 +16,7 @@ import kotlin.reflect.KProperty
 class Example {
     var p: String by Delegate()
 
-    override fun toString() = "Example"
+    override fun toString() = "Example Class"
 }
 
 class Delegate {
@@ -27,12 +27,14 @@ class Delegate {
     operator fun setValue(thisRef: Any?, prop: KProperty<*>, value: String) {
         println("$value has been assigned to ${prop.name} in $thisRef")
     }
+
+    override fun toString(): String {
+        return "Fuck BTC"
+    }
 }
 
 fun main(args: Array<String>){
     val e = Example()
     println(e)
     e.p = "NEW"
-
-    println(e.p)
 }
