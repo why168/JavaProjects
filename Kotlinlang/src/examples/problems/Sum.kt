@@ -10,5 +10,5 @@ package examples.problems
  */
 fun sum(a: IntArray): Int {
     // Write your solution here
-    return a.sumBy { a[it - 1]++ }
+    return a.sum()
 }

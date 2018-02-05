@@ -11,7 +11,7 @@ import org.junit.Test
 import java.util.*
 import kotlin.test.assertEquals
 
-public class Tests {
+class Tests {
     @Test
     fun testSum1() {
         test(0)
