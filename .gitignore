@@ -24,3 +24,8 @@ hs_err_pid*
 # Intellij
 *.iml
 .idea
+
+# Generated files
+bin/
+gen/
+out/
