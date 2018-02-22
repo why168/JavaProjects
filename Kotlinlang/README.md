@@ -20,7 +20,7 @@
 4. Kotlin：想解决Java
 
 #### 示例代码
-```
+```Kotlin
 
 var age1 = 22 // var是一个可变变量
 
