@@ -12,12 +12,30 @@
 7. 编译到APK包里面有大约有6000个方法
 
 
-##### Scala、Groovy、Clojure 、Kotlin 分别解决了 Java 的什么痛点？
+#### Scala、Groovy、Clojure 、Kotlin 分别解决了 Java 的什么痛点？
 
 1. Scala：想解决Java表达能力不足的问题
-2. Groovy：想解决Java语法过于冗长的问题
+2. Groovy：想解决Java语33法过于冗长的问题
 3. Clojure：想解决Java没有函数式编程的问题
 4. Kotlin：想解决Java
+
+#### 示例代码
+```
+
+var age1 = 22 // var是一个可变变量
+
+val age2 = 22 // val是一个只读变量，相当于Java中的final变量
+
+val num1 = number1!!.toInt() // !!表示和正常的Java一样可以为NULL,会报KotlinNullPointerException
+
+fun parseInt(str: String): Int? { // ?:返回值夹问好，表示返回值可以为null
+    str.toInt()
+    return str.toIntOrNull()
+}
+
+
+```
+
 
 
 # 参考资料
