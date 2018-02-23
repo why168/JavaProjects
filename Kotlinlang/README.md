@@ -40,8 +40,7 @@ var mContext2: Context by Delegates.notNull() // 委托
 
 #### 插件推荐
 
-1. JsonToKotlin：Android Studio插件根据Json自动生成KotlinBean
-
+1. JsonToKotlin：Android Studio插件根据Json自动生成KotlinBean.
 
 
 # 参考资料
