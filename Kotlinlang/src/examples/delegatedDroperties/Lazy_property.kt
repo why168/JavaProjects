@@ -22,6 +22,4 @@ fun main(args: Array<String>) {
     val sample = LazySample()
     println("lazy = ${sample.lazy}")
     println("lazy = ${sample.lazy}")
-
-
 }
