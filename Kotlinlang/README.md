@@ -33,6 +33,8 @@ fun parseInt(str: String): Int? { // ?:返回值夹问好，表示返回值可�
     return str.toIntOrNull()
 }
 
+var mContext1: Context? = null // 一般
+var mContext2: Context by Delegates.notNull() // 委托
 
 ```
 
