@@ -36,6 +36,36 @@ fun parseInt(str: String): Int? { // ?:返回值夹问好，表示返回值可�
 var mContext1: Context? = null // 一般
 var mContext2: Context by Delegates.notNull() // 委托
 
+
+// kotlin中的类定义同时也是构造函数，增加了一个新的关键字init用来处理类的初始化问题，init模块中的内容可以直接使用构造函数的参数。
+class Person(name:String,age:int){
+    init{
+        //do some thiing
+    }
+}
+
+// *****等价于下面Java代码*****
+
+final public class Person{
+    public Person(String name,int age){
+        init();
+    }
+    private void init(){
+        //do some thing
+    }
+}
+
+annotation //注解类
+abstract //抽象类
+final //类不可继承，默认属性
+enum //枚举类
+open //类可继承，类默认是final的
+
+private //仅在同一个文件中可见
+protected //同一个文件中或子类可见
+public //所有调用的地方都可见
+internal //同一个模块中可见
+constructor //  多组构造函数时使用
 ```
 
 #### 插件推荐
@@ -48,3 +78,4 @@ var mContext2: Context by Delegates.notNull() // 委托
   * https://android-developers.googleblog.com/2017/05/android-announces-support-for-kotlin.html
   * http://www.demojameson.com/2015/11/08/why-kotlin/
   * http://yun.itheima.com/course/266.html
+  * http://blog.csdn.net/dota_wy/article/details/76060078
