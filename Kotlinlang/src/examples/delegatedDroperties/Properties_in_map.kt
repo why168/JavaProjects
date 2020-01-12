@@ -21,5 +21,6 @@ fun main(args: Array<String>) {
             "age" to 25
     ))
 
+
     println("name =${user.name}, age =${user.age}")
 }

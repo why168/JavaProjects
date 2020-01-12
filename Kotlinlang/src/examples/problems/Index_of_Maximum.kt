@@ -31,7 +31,7 @@ fun indexOfMax(vararg data: Int) {
 fun main(args: Array<String>) {
 //    println(indexOfMax(-1, 0))
 
-    val intArray = IntArray(3, { 1; 2; 3;  })
+    val intArray = IntArray(3) { 1; 22; 3;  }
 
     println(intArray.max())
 

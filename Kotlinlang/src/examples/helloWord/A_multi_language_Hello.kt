@@ -9,7 +9,7 @@ package examples.helloWord
  * @since JDK1.8
  */
 fun main(args: Array<String>) {
-    val language = if (args.size == 0) "EN" else args[0]
+    val language = if (args.isEmpty()) "EN" else args[0]
     println(when (language) {
         "EN" -> "Hello!"
         "FR" -> "Salut!"
