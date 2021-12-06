@@ -72,6 +72,14 @@ constructor //  多组构造函数时使用
 
 1. JsonToKotlin：Android Studio插件根据Json自动生成KotlinBean.
 
+### 性能测试
+[java](https://github.com/openjdk/jmh)
+[kotlin](https://github.com/Kotlin/kotlin-benchmarks)
+```shell
+$ java -jar target/benchmarks.jar
+```
+
+
 
 # 参考资料
   * https://try.kotlinlang.org/
